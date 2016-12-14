@@ -100,25 +100,8 @@ module.exports = {
           limit: 10000
         }
       }
-      // ,
-      // HTML
-      // {
-      //   test: /\.html$/,
-      //   loader: 'html-loader'
-      // }
-      // ,
-      // Modernizr
-      // {
-      //   test: /\.modernizrrc$/,
-      //   loader: 'modernizr'
-      // }
     ]
   },
-  // resolve: {
-  //   alias: {
-  //     modernizr$: path.resolve(__dirname, '.modernizrrc')
-  //   }
-  // },
   plugins: [
     new SimpleProgressPlugin({
       messageTemplate: chalk.yellow.bold('[Bundle...] ') + chalk.green(':percent') + ' :bar (:elapsed seconds)',
